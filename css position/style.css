@@ -1,0 +1,79 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    width: 250px;
+
+    border: 2px solid lightgray;
+    border-radius: 16px;
+    margin: 10px auto;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.card-body{
+    padding: 5px;
+}
+.btn{
+     background-color: tomato;
+     padding:12px 30px ;
+     font-size: 15px;
+     border-radius:80px ;
+     border:none ;
+     color: white;
+     cursor: pointer;
+}
+.help-btn{
+    background-color: green;
+     padding:12px 30px ;
+     font-size: 15px;
+     border-radius:80px ;
+     border:none ;
+     color: white;
+     cursor: pointer;
+     display: inline-block;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     margin: 30px;
+}
+.offer{
+    width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+     
+}
+.relative{
+    height: 250px;
+    width: 250px;
+    margin:50px auto ;
+    border-radius: 20px;
+    background-color:  green;
+}
+.abs{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 6px;
+}
+.card-header{
+    position: relative;
+}
+.rating{
+    position: absolute;
+    font-size: 14px;
+    background-color: #f3ac9f;
+    padding:1px 4px;
+    margin: 20px 0 20px 20px ;
+    border-radius: 30px;
+    bottom:0;
+    left: 0;
+}

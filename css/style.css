@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+.body{
+    background-color: rgb(214, 214, 100);
+}
+.box{
+    border: 5px solid rgb(160, 53, 34);
+    padding: 50px;
+    margin: 100px;
+    border-radius: 24px;
+    background-color: rgb(160, 53, 34);
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+
+}
+.box-title{
+    margin-top: 24px;
+    font-family: 'poppins', sans-serif ;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 8px 0px;
+    
+
+}
+.btn{
+    background-color: white;
+    color:rgb(160, 53, 34);
+    border: none;
+    padding: 12px 26px; 
+    font-size: 10px;
+    border-radius: 120px;
+}
+.box-desc{
+    margin: 0px;
+}
+.airbnb-card{
+    background-color: lightgrey;
+    width: 320px;
+    margin: 50px;
+    padding: 20px;
+    font-family: 'poppins', sans-serif;
+
+}
+.airbnb-circle{
+    border: 1px solid black;
+    display: inline;
+    padding: 10px 18px;
+    margin: 0px;
+    border-radius: 50%;
+
+}
+.airbnb-heading{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.card{
+    background-color: whitesmoke;
+    width: 320px;
+    margin: 50px auto;
+    font-family:'poppins', sans-serif;
+      
+
+}
+.card-img{
+    width: 100%;
+}
+.card-body{
+    padding: 20px;
+}
+    
+
+
